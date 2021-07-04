@@ -1,0 +1,77 @@
+h1{
+    font-family: 'Tangerine', cursive;
+    font-size: 70px;
+
+}
+h2{
+    font-family: 'Nanum Brush Script', cursive;
+}
+p{
+
+font-size: larger;   
+text-align: justify;
+font-family: cursive ; 
+}
+.flexible-container{
+
+    display: flex;
+}
+
+.half-width{
+
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width image{
+    width: 80%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(skyblue, rgb(106, 106, 168));
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+img{
+    border-radius: 50%;
+    width: 300px;
+}
+.color{
+    color: orange;
+}
+.title-color{
+color: olivedrab;
+
+}
+.experience-item{
+box-shadow: 10px 10px 40px gray;
+width: 40%;
+margin-left: 5%;
+margin-right: 5%;
+padding-left: 20px;
+padding-right: 20px;
+border-radius: 20px;
+}
+#web-dev-experience{
+ border-image: linear-gradient(purple,rgb(120, 120, 223));
+ border-left: 8px solid;
+ border-image-slice: 1;
+}
+#teaching-experience{
+    border-image: linear-gradient(orange,rgb(39, 26, 2));
+    border-left: 8px solid;
+    border-image-slice: 1;
+
+}
+footer p{
+    text-align: center;
+}
+section{
+ margin-bottom: 100px ;
+}
+#experience-header{
+    font-family: 'Nanum Brush Script', cursive;
+    font-size: 30px;
+    padding-left: 85px;
+}
